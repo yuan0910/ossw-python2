@@ -187,6 +187,3 @@ class Lecture:
             
             cont=input()
             if cont=='0': break
-
-ENG=Lecture('English', '전공', 30)
-ENG.manageLecture()
