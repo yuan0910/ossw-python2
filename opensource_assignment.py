@@ -1,14 +1,3 @@
-'''
-학생 성적 관리 프로그램
-
-#lecture 클래스 (과목)
-
-1 생성자 (init) 
-- name: 과목의 이름 (ex: 오픈소스sw와 파이썬 프로그래밍, 자료구조...)
-- category: 과목의 구분 (전공, 전공기초, 핵심교양, 선택교양 등...)
-- size: 수강 인원
-'''
-
 class Lecture:
     def __init__(self, name='설정되지 않음', category='설정되지 않음', size=-1):
         self.__name=name
