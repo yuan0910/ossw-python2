@@ -78,10 +78,10 @@ class Lecture:
                 print('')
                 print('>> 3. 과목 수강인원 변경 선택')
                 print(f'현재 과목 수강인원: {self.getSize()}')
-                print('변경할 수강 인원을 입력해주세요 (변경 취소시 0 입력)')
+                print('변경할 수강 인원을 입력해주세요 (변경 취소시 -1 입력)')
                 
                 size_set=input()
-                if size_set=='0': continue
+                if size_set=='-1': continue
 
                 try:
                     self.setSize(int(size_set))
